@@ -1,0 +1,13 @@
+{
+  "name": "@example/icons",
+  "version": "0.0.0",
+  "sideEffects": false,
+  "license": "MIT",
+  "files": [
+    "examplecollection"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://my.own-registry.com"
+  }
+}
