@@ -33,6 +33,10 @@ npx degit andreash82/with-changesets#main with-changesets
 cd with-changesets
 pnpm install
 git init . && git add . && git commit -m "Init"
+
+# at least once for package resolution in IDE
+pnpm run dev
+
 ```
 
 ### Useful commands
@@ -41,7 +45,7 @@ git init . && git add . && git commit -m "Init"
 - `pnpm run dev` - Develop all packages and the docs site
 - `pnpm run lint` - Lint all packages
 - `pnpm run changeset` - Generate a changeset
-- `pnpm run clean` - Clean up all `node_modules` and `dist` folders (runs each package's clean script) and reinits node_modules via `pnpm i`
+- `pnpm run refresh` - Clean up all `node_modules` and `dist` folders (runs each package's clean script) and reinits node_modules via `pnpm i`
 
 ### Changing the npm organization scope
 
