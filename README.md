@@ -29,7 +29,7 @@ This Turborepo has some additional tools already setup for you:
 Run the following command:
 
 ```sh
-npx degit vercel/turbo/examples/with-changesets with-changesets
+npx degit andreash82/with-changesets#main with-changesets
 cd with-changesets
 pnpm install
 git init . && git add . && git commit -m "Init"
